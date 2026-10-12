@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  <!-- Fond sombre -->
+  <rect width="512" height="512" rx="80" fill="#0a0a0f"/>
+  <!-- Document bleu -->
+  <path d="M 112 64 Q 112 32 144 32 L 368 32 L 448 112 L 448 448 Q 448 480 416 480 L 144 480 Q 112 480 112 448 Z" fill="url(#b)"/>
+  <!-- Coin plié -->
+  <path d="M 368 32 L 448 112 L 368 112 Z" fill="#bfdbfe"/>
+  <!-- Lettre f -->
+  <path d="M 190 480 C 190 480 190 260 190 260 L 160 260 C 148 260 138 252 138 240 C 138 228 148 220 160 220 L 190 220 L 190 180 C 190 100 240 60 310 60 C 330 60 350 75 350 100 C 350 120 335 135 310 135 C 275 135 250 150 250 190 L 250 220 L 380 220 C 395 220 405 228 405 240 C 405 252 395 260 380 260 L 250 260 L 250 430 C 250 460 235 480 205 480 C 198 480 190 480 190 480 Z" fill="white"/>
+  <!-- 3 petites lignes -->
+  <rect x="280" y="300" width="130" height="26" rx="13" fill="white" opacity="0.9"/>
+  <rect x="280" y="350" width="90" height="26" rx="13" fill="white" opacity="0.6"/>
+  <rect x="280" y="400" width="130" height="26" rx="13" fill="white" opacity="0.9"/>
+</svg>
